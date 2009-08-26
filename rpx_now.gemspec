@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION.yml",
-    "certs/ssl_cert.pem",
     "init.rb",
     "lib/rpx_now.rb",
     "lib/rpx_now/contacts_collection.rb",
@@ -33,7 +32,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/grosser/rpx_now}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.4}
+  s.rubygems_version = %q{1.3.5}
   s.summary = %q{Helper to simplify RPX Now user login/creation}
   s.test_files = [
     "spec/rpx_now_spec.rb",
